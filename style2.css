@@ -1,0 +1,106 @@
+.navlogo{
+    position:fixed;
+    top: 0;
+}
+.navlogo1{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+
+
+}
+body{
+    background: linear-gradient(to right, #f0c517, #e6eaeb); 
+}
+.box{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box li{
+     margin-left: 1.5rem;
+}
+.na{
+
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0909;
+    padding: 50px ;
+}
+
+.box a:hover{
+    color: #f0ede7;
+
+}
+h1{
+    position: absolute;
+    top: 100px;
+    left:40%;
+}
+
+.container {
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    background-color: beige;
+   
+    position:absolute;
+    top:40%;
+    left:40%;
+}
+.container button{
+    background-color:#000000;
+    color:aliceblue;
+}
+.input-field {
+    margin-bottom: 10px;
+}
+.ab {
+    padding-left: 20px; /* Adjust padding as needed */
+    color: #ac8e16;
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+}
+
+.ab1 {
+    padding-left: 20px; /* Adjust padding as needed */
+    color: #ac8e16;
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    top: 5%;
+    right: 40%; /* Adjust right position to avoid overlap */
+}
+ul#convertedGrades {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 400px;
+    position:absolute;
+    top:40%;
+    left:30%;
+}
+ul#convertedGrades li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}

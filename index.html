@@ -1,0 +1,44 @@
+<Html>
+<head>
+    <title>Student Grade Converter</title>
+    <link rel="icon" href="SG.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script >
+        function submitNumber(){
+            const number = document.getElementById("numSubjects").value;
+            if (number > 0) {
+                localStorage.setItem('numbersub', number);
+                window.location.href = "results.html";
+            } else {
+                alert('Please enter a valid number of subjects.');
+            }
+        }
+    
+    </script>
+
+</head>
+<body>
+   
+    <nav class="na"></nav>
+        <div class ="navlogo">
+            <img src="SG.png" class="navlogo1">
+
+        </div>
+        <ul class="box">
+            <li ><a href="about.html">ABOUT</a></li>
+        </ul>
+    </nav class="box">
+    <h1>Smart Grade System</h1>
+        <div class="container">
+            <h2>Enter Number of Subjects</h2>
+            <form class="for"  id="gradesForm" >
+                <label for='numSubjects'>Number of Subjects:</label>
+                <input type="number" id="numSubjects"  min="1" required>
+                <button type="button" onclick="submitNumber()">Submit</button>
+            </form>
+        </div>
+    
+</body>
+
+
+</Html>
