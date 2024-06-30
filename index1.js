@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let numSubjects = parseInt(localStorage.getItem('numbersub'));
     const marksForm = document.getElementById('marksForm');
 
-    // Dynamically create input fields based on numSubjects
+
     for (let i = 1; i <= numSubjects; i++) {
         const label = document.createElement('label');
         label.textContent = `Subject ${i} Mark:`;
