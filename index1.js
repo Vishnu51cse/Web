@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
         marksForm.appendChild(br);
     }
 
-    // Function to handle form submission
     window.submitMarks = function() {
         const grades = [];
         const gradeInputs = document.getElementsByClassName('gradeInput');
